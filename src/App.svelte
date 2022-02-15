@@ -19,7 +19,7 @@
 
 <Header />
 <main>
-	<Tabs {activeItem} {menuItems} on:tabChange={tabChange} />
+	<Tabs {activeItem} {menuItems} on:tabChange={tabChange}/>
     {#if activeItem === menuItems[0]}
         <Ex1 />
 	{:else if activeItem === menuItems[1]}

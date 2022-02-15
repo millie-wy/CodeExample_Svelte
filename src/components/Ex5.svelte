@@ -1,4 +1,8 @@
-<div class="container">
+<script>
+    import { fade, fly } from 'svelte/transition';
+</script>
+
+<div class="container" in:fly={{ y: 200, duration: 1000 }}>
     <div class="code">
         <img src="/images/arrow.png" alt="arrow">
         <h2>This navbar is the example!</h2>

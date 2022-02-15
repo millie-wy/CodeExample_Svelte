@@ -1,8 +1,9 @@
 <script>
+    import { fade, fly } from 'svelte/transition';
     let name = 'Millie';
 </script>
 
-<div class="container">
+<div class="container" in:fly={{ y: 200, duration: 1000 }}>
     <div class="code">
         <h2>My name is {name}!</h2>
     </div>

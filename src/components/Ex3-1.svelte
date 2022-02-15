@@ -1,11 +1,13 @@
 <script>
     import Ex3child from './Ex3-2.svelte'; // passing data down to child
+    import { fade, fly } from 'svelte/transition';
 
     let imgSrc = '/images/burger.svg';
     let imgAlt = 'hamburger';
+
 </script>
 
-<div class="container">
+<div class="container" in:fly={{ y: 200, duration: 1000 }}>
     <div class="code">
         <Ex3child answer={'burgers'} {imgSrc} {imgAlt} />
     </div>

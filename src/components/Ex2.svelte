@@ -1,4 +1,6 @@
 <script>
+    import { fade, fly } from 'svelte/transition';
+
     let firstName = "";
     let lastName = "";
     let gender = "";
@@ -7,7 +9,7 @@
     $: fullName = `${firstName} ${lastName}`; // simplified reactive variable
 </script>
 
-<div class="container">
+<div class="container" in:fly={{ y: 200, duration: 1000 }}>
     <div class="code">
         <!-- svelte-ignore a11y-label-has-associated-control -->
         <label>First Name</label>
@@ -28,7 +30,7 @@
         <label>Favorite Color</label>
         <input type="text" bind:value={favColor}>
 
-        <h3>My name is {fullName}, a {gender} and my favorite color is <span style="color: {favColor}">{favColor}</span>.</h3>
+        <h3 in:fade={{delay: 1000, duration: 2000}}>My name is {fullName}, a {gender} and my favorite color is <span style="color: {favColor}">{favColor}</span>.</h3>
 
     </div>
     <div class="output">

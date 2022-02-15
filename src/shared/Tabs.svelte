@@ -7,7 +7,7 @@
 
 </script>
 
-<ul>
+<ul >
     {#each menuItems as item}
         <li on:click={() => dispatch('tabChange', item)}>
             <div class:active={item === activeItem}>{item}</div>

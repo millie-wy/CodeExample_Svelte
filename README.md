@@ -25,7 +25,7 @@ npm run dev
 
 The app should then be running in your localhost. Alternatively you can click the below demo link!
 
-Demo:
+Demo: https://svelte.dev/repl/83fb182ab992479da0076aba8a73148e?version=3.46.4
 
 ---
 

@@ -1,6 +1,6 @@
 ## Svelte Code Example
 
-This project contain 5 simple code examples I created for my written report about Svelte.
+This project containd 5 simple code examples I created for my written report about Svelte.
 
 1. Conponent Structure
 2. Binding: Text/Group Inputs
@@ -8,7 +8,7 @@ This project contain 5 simple code examples I created for my written report abou
 4. Slots
 5. Each Blocks
 
-Throughout my code you can also many other interesting Svelte syntax including but not limited to if blocks, svelte/transition, motion and animate.
+Throughout my code you can also find other interesting Svelte syntax including but not limited to if blocks, svelte/transition, motion and animate.
 
 If you have the project opened in your code editor, run the below commands in the terminal to get started.
 

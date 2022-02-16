@@ -1,5 +1,5 @@
 <footer>
-    <p>Copyright © 2022 Millie Cheung</p>
+    <p>Copyright © 2022 <a href="https://github.com/millie-wy" target="_blank">Millie Cheung</a></p>
 </footer>
 
 <style>

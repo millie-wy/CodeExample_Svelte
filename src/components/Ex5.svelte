@@ -7,6 +7,8 @@
         <img src="/images/arrow.png" alt="arrow">
         <h2>This navbar is the example!</h2>
     </div>
+
+    <!-- Code example output -->
     <div class="output">
         {`<script>`}<br/>
         <span class="span-ml">{`import { createEventDispatcher } from "svelte";`}<br/></span>
@@ -40,6 +42,8 @@
         <span class="span-ml">{`}`}<br/></span>
         {`</style>`}<br/>     
     </div>
+    <!-- End of code example output -->
+
 </div>
 
 <style>

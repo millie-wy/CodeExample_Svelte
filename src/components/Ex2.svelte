@@ -33,6 +33,8 @@
         <h3 in:fade={{delay: 1000, duration: 2000}}>My name is {fullName}, a {gender} and my favorite color is <span style="color: {favColor}">{favColor}</span>.</h3>
 
     </div>
+
+    <!-- Code example output -->
     <div class="output">
         {`<script>`}<br/>
         <span class="span-ml">{`let firstName = "";`}<br/></span> 
@@ -57,4 +59,6 @@
         {`<input type="text" bind:value={favColor}>`}<br/><br/>
         {`<h3>My name is {fullName}, a {gender} and my favorite color is <span style="color: {favColor}">{favColor}</span>.</h3>`} 
     </div>
+    <!-- End of code example output -->
+
 </div>

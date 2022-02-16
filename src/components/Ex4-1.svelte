@@ -17,6 +17,7 @@
         </Ex4child>
     </div>
     
+    <!-- Code example output -->
     <div class="output">
         {`<-------- PARENT component -------->`}<br/><br/>
         {`<script>`}<br/>
@@ -56,6 +57,8 @@
         <span class="span-ml">{`<slot {isHovering}></slot>`}<br/></span>
         {`</div>`}<br/><br/>
     </div>
+    <!-- End of code example output -->
+
 </div>
 
 

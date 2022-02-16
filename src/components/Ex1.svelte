@@ -7,6 +7,8 @@
     <div class="code">
         <h2>My name is {name}!</h2>
     </div>
+
+    <!-- Code example output -->
     <div class="output">
         {`<script>`}<br/>
 	    <span class="span-ml">{`let name = 'Millie';`}<br/></span>
@@ -16,6 +18,8 @@
         <span class="span-ml">{`h2 { color: rgb(122, 95, 60); }`}<br/></span>
         {`</style>`}<br/>     
     </div>
+    <!-- End of code example output -->
+
 </div>
 
 

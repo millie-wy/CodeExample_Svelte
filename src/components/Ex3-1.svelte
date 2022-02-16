@@ -12,6 +12,7 @@
         <Ex3child answer={'burgers'} {imgSrc} {imgAlt} />
     </div>
     
+    <!-- Code example output -->
     <div class="output">
         {`<-------- PARENT component -------->`}<br/><br/>
         {`<script>`}<br/>
@@ -34,4 +35,6 @@
         <span class="span-ml">{`img { width: 10rem; }`}<br/></span>
         {`</style>`}<br/><br/>
     </div>
+    <!-- End of code example output -->
+
 </div>
